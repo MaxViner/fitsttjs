@@ -8,7 +8,7 @@ content.addEventListener('scroll', () => {
     const blockTop = block.getBoundingClientRect().top;
     const blockHeight = block.clientHeight;
 
-    if (  blockTop  < contentHeight * 0.7 && blockTop + blockHeight > 0) {
+    if (  blockTop  < contentHeight * 0.25 && blockTop + blockHeight > 0) {
       block.classList.add('show'); // Добавляем класс для анимации
       block.classList.remove('fade-out-bck'); 
 
