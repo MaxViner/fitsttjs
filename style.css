@@ -9,6 +9,7 @@ body {
     overflow: hidden;
     perspective: 1000px;
     height: 100dvh;
+    width: 100dvw;
    
         font-family: "Caveat", cursive;
         font-optical-sizing: auto;
@@ -48,21 +49,23 @@ body {
     display: flex;
     flex-direction: column;
     gap: 130px;
-    max-height: 100%;
     overflow-y: scroll;
     margin-bottom: 200px;
     align-items: center;
     padding-bottom: 300px;
     padding-top: 200px;
     scroll-behavior: smooth;
-  }
-  @media screen and (max-width:450px) {
-    #content {
-        font-size: 30px;
+    height: 100%;
+    width: 100%;
   }
   #block9{
     margin-bottom: 300px;
 }
+  @media screen and (max-width:450px) {
+    #content {
+        font-size: 30px;
+  }
+
 }
   #block1{
     margin-top: 300px;
